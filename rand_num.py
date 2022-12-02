@@ -1,6 +1,6 @@
 import numpy as np
 
-class Random_Number:
+class Ran_Number:
 
     def __init__(self, minRange, maxRange, amount):
         self.amount = int(amount)
@@ -16,5 +16,5 @@ class Random_Number:
             random_list = list(np.random.randint(low = self.minRange, high = self.maxRange, size = self.amount))
             print(random_list)
 
-mytest = Random_Number(1,10,5)
+mytest = Ran_Number(1,10,5)
 mytest.rand_num()
